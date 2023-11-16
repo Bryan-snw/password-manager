@@ -71,7 +71,7 @@ def save_password():
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def find_password():
     website = website_input.get()
-    if len(website) <= 0 :
+    if len(website) <= 0:
         messagebox.showinfo(title="Oops", message="Website field is empty")
     else:
         try:
