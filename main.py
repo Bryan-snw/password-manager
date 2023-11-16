@@ -116,7 +116,7 @@ website_input.focus()
 website_input.grid(column=1, row=1, sticky='W', padx=(9, 0))
 
 email_input = Entry(width=50)
-email_input.insert(END, "bryansie29@gmail.com")
+email_input.insert(END, "email@gmail.com")
 email_input.grid(column=1, row=2, columnspan=2)
 
 password_input = Entry(width=25)
